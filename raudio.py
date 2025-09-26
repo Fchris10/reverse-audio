@@ -58,7 +58,7 @@ def get_audio_reverse(filename):
 
     # Write the reversed audio data to a new wave file and save it in Desktop
     download = Path(Path.home(), "Desktop")
-    path_file = os.path.join(download, "reversed_audio1.wav")
+    path_file = os.path.join(download, "reversed_audio.wav")
 
     with wave.open(path_file, "wb") as out:
         out.setnchannels(channels)
