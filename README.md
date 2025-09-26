@@ -48,13 +48,13 @@ pip install pydub easygui
 ## 📂Output
 The reversed audio file will be saved on your Desktop as:
 ```
-~/Desktop/reversed_audio1.wav
+~/Desktop/reversed_audio.wav
 ```
 ---
 
 ## Example
 ```
-# WELCOME TO REVERSE AUDIO #
+# WELCOME TO REVERSE AUDIO TOOL #
 
 Do you have an audio file to reverse? [Y/N]: y
 Sample width: 2 bytes
